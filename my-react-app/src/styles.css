@@ -1,0 +1,42 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url("./Sleep.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8; /* Reduced opacity */
+    color: white; /* Set text color to white for better contrast */
+    text-align: center; /* Align text to center */
+    padding: 20px; /* Add padding for better readability */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    margin-right: 10px;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
